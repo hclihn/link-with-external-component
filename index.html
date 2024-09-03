@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vue test</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="tools.js"></script>
+    <script src="component.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <v-app
+        ><v-main>
+          <h1>My Vue App</h1>
+          <p>test</p>
+          <link-with-external href="https://codesandbox.io/"
+            >Test this</link-with-external
+          ><br />
+          <link-with-external href="https://codesandbox.io/" ext-only
+            >And this</link-with-external
+          ><br />
+          <link-with-external href="https://codesandbox.io/" no-ext
+            >How About this</link-with-external
+          >
+          <p>end</p>
+        </v-main></v-app
+      >
+    </div>
+    <script src="test.js"></script>
+  </body>
+</html>
